@@ -24,6 +24,7 @@ body {
 
 img {
     max-width: 100%;
+    margin-left:10px;
 }
 
 h1 {
@@ -50,6 +51,35 @@ h1 {
     /* these are now flex items */
     width: 100%;
 }
+
+
+.whitebit{
+flex:3;
+padding:1em 3em 1em 0;
+font-size: 80%;
+
+text-align: left;
+margin-left:0;
+}
+
+.bluebit{
+    background-color:#23424A;
+  color:white;
+  padding:1em 5em;
+  text-align: center;
+  flex:2;
+
+}
+.bluebit p{
+    font-size: 0.8rem;
+opacity:.8;
+    ;
+}
+
+.secondhalf{
+    margin-top:3rem;
+}
+
 
 .col + .col {
     margin-left: 30px;
